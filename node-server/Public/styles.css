@@ -1,0 +1,36 @@
+body, html {
+	background: #F0EAD6;
+	overflow: hidden;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#main-container {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background: #7dbce8;
+}
+
+#button {
+	width: 50%;
+	height: 5vh;
+	display: flex;
+	padding-bottom: 5vh;
+	text-align: center;
+	border: 2px solid white;
+	flex-direction: column;
+}
+
+#stats {
+	display: flex;
+	flex-wrap: wrap;
+	height: 60vh;
+	width: 100%;
+}
+
+.data-item {
+	padding: 2vh;
+}
